@@ -1,4 +1,4 @@
-# 📊 Financial Statement Analysis — Dino Polska S.A. (2021–2024)
+# Financial Statement Analysis — Dino Polska S.A. (2021–2024)
 
 > **Comprehensive financial analysis of one of Poland's fastest-growing grocery retailers,**  
 > covering profitability, liquidity, efficiency, capital structure, cash flow, and competitive positioning.
@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🏢 Project Overview
+## Project Overview
 
 This project is a full-scope financial statement analysis of **Dino Polska S.A.** — one of Poland's fastest-growing mid-size grocery supermarket chains — covering the period **2021 to 2024**.
 
@@ -46,7 +46,7 @@ The analysis is based on **standalone (unconsolidated) financial statements** of
 
 ---
 
-## ❓ Business Problem
+## Business Problem
 
 Dino Polska has been one of the fastest-growing grocery retailers in Poland for several consecutive years. However, **rapid expansion always carries financial risk** — it can mask deteriorating margins, over-leverage the balance sheet, and strain liquidity.
 
@@ -65,7 +65,7 @@ These are exactly the questions a CFO, FP&A Manager, or equity research analyst 
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Perform a complete financial statement analysis for the period 2021–2024
 - Calculate and interpret all major financial ratios (profitability, liquidity, efficiency, debt)
@@ -78,7 +78,7 @@ These are exactly the questions a CFO, FP&A Manager, or equity research analyst 
 
 ---
 
-## 🔬 Methodology
+## Methodology
 
 The analysis follows a structured, top-down approach, consistent with methods used in corporate FP&A departments and equity research:
 
@@ -108,7 +108,7 @@ No external databases or paid data providers were used.
 
 ---
 
-## 📂 Data Sources
+## Data Sources
 
 | Source | Description |
 |---|---|
@@ -122,7 +122,7 @@ No external databases or paid data providers were used.
 
 ---
 
-## 📐 Financial Ratios Analyzed
+## Financial Ratios Analyzed
 
 ### Profitability
 
@@ -166,7 +166,7 @@ No external databases or paid data providers were used.
 
 ---
 
-## 📈 Key Charts & Visualizations
+## Key Charts & Visualizations
 
 ### Revenue Growth 2021–2024
 ![Revenue Trend](images/charts/01_revenue_trend.png)
@@ -224,7 +224,7 @@ The share of equity in total financing grew from 43% to 54% over the period. Non
 
 ---
 
-## 💡 Business Insights
+## Business Insights
 
 ### 1. The fastest-growing major grocery chain in Poland
 
@@ -248,7 +248,7 @@ PLN 2,557M in operating cash flow (2024) covered PLN 1,597M in capex and the acq
 
 ---
 
-## 🏆 Competitive Benchmarking
+## Competitive Benchmarking
 
 Dino Polska was benchmarked against two major competitors in the Polish grocery market:
 
@@ -264,7 +264,7 @@ Key conclusions from the benchmark:
 
 ---
 
-## 📌 Recommendations
+## Recommendations
 
 Based on the financial analysis, five strategic recommendations were identified:
 
@@ -285,7 +285,7 @@ The declining Debt Ratio (46%) and growing equity base have improved Dino's cred
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 | Area | Description |
 |---|---|
@@ -298,7 +298,7 @@ The declining Debt Ratio (46%) and growing equity base have improved Dino's cred
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Financial-Analysis-Dino-Polska-SA/
@@ -333,7 +333,7 @@ Financial-Analysis-Dino-Polska-SA/
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |---|---|
@@ -345,9 +345,9 @@ Financial-Analysis-Dino-Polska-SA/
 
 ---
 
-## 👩‍💼 About the Author
+## About the Author
 
-**Daryna**  
+**Daryna Akkus**  
 Finance & Accounting student · Business Process Automation specialization  
 WSZiB (Wyższa Szkoła Zarządzania i Bankowości), Kraków
 
