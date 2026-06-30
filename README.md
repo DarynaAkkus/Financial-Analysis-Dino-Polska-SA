@@ -1,15 +1,15 @@
-# Financial Statement Analysis — Dino Polska S.A. (2021–2024)
+# Financial Analysis — Dino Polska S.A. (2021–2024)
 
-> **Comprehensive financial analysis of one of Poland's fastest-growing grocery retailers,**  
-> covering profitability, liquidity, efficiency, capital structure, cash flow, and competitive positioning.
-
----
-
-![Project Cover](images/cover.png)
+> Comprehensive financial statement analysis of one of Poland's fastest-growing grocery retailers,
+> covering profitability, liquidity, efficiency, capital structure, cash flow, and competitive benchmarking.
 
 ---
 
-##  Table of Contents
+![Revenue and Net Profit](images/charts/01_revenue_net_profit.png)
+
+---
+
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
@@ -17,13 +17,13 @@
 - [Methodology](#methodology)
 - [Data Sources](#data-sources)
 - [Financial Ratios Analyzed](#financial-ratios-analyzed)
-- [Key Charts & Visualizations](#key-charts--visualizations)
+- [Key Charts and Visualizations](#key-charts-and-visualizations)
 - [Business Insights](#business-insights)
 - [Competitive Benchmarking](#competitive-benchmarking)
 - [Recommendations](#recommendations)
 - [Future Work](#future-work)
 - [Project Structure](#project-structure)
-- [Tools & Technologies](#tools--technologies)
+- [Tools and Technologies](#tools-and-technologies)
 - [About the Author](#about-the-author)
 
 ---
@@ -32,9 +32,7 @@
 
 This project is a full-scope financial statement analysis of **Dino Polska S.A.** — one of Poland's fastest-growing mid-size grocery supermarket chains — covering the period **2021 to 2024**.
 
-Dino Polska operates over **2,688 stores** (as of 2024), primarily in small and medium-sized towns, and is listed on the Warsaw Stock Exchange (GPW: DNP). The company follows a capital-light, owner-operated model built on vertical integration (own meat processing plant Agro-Rydzyna), proprietary real estate, and a standardized store format of approximately 400 m².
-
-The analysis is based on **standalone (unconsolidated) financial statements** of Dino Polska S.A. and covers all major areas of financial analysis used in corporate FP&A and equity research:
+Dino Polska operates over **2,688 stores** (as of 2024), primarily in small and medium-sized towns across Poland, and is listed on the Warsaw Stock Exchange (GPW: DNP). The company follows an owner-operated model built on vertical integration (own meat processing plant Agro-Rydzyna), proprietary real estate, and a standardized store format of approximately 400 m².
 
 | Area | Scope |
 |---|---|
@@ -48,63 +46,45 @@ The analysis is based on **standalone (unconsolidated) financial statements** of
 
 ## Business Problem
 
-Dino Polska has been one of the fastest-growing grocery retailers in Poland for several consecutive years. However, **rapid expansion always carries financial risk** — it can mask deteriorating margins, over-leverage the balance sheet, and strain liquidity.
-
 This analysis was designed to answer three executive-level questions:
 
-1. **Is the company financially healthy?**  
-   → Can it sustain its expansion without compromising financial stability?
-
-2. **What changed — and why?**  
-   → Which financial metrics improved, which deteriorated, and what drove those changes?
-
-3. **What should management do next?**  
-   → What are the key risks, and what strategic actions should follow?
-
-These are exactly the questions a CFO, FP&A Manager, or equity research analyst would ask when reviewing a company's financial performance.
+1. **Is the company financially healthy?** Can it sustain its expansion without compromising financial stability?
+2. **What changed — and why?** Which metrics improved, which deteriorated, and what drove those changes?
+3. **What should management do next?** What are the key risks and strategic actions?
 
 ---
 
 ## Objectives
 
-- Perform a complete financial statement analysis for the period 2021–2024
+- Perform a complete financial statement analysis for 2021–2024
 - Calculate and interpret all major financial ratios (profitability, liquidity, efficiency, debt)
-- Conduct horizontal analysis (year-on-year changes) and vertical analysis (structure)
-- Identify key trends and inflection points in the company's financial performance
-- Benchmark Dino Polska against major competitors (Żabka Group, Biedronka / Jerónimo Martins)
-- Identify business risks and opportunities based on financial data
+- Conduct horizontal analysis (YoY changes) and vertical analysis (cost structure)
+- Benchmark Dino Polska against major competitors (Żabka Group, Biedronka)
 - Formulate strategic recommendations supported by the analysis
-- Present findings in a format suitable for executive management
 
 ---
 
 ## Methodology
 
-The analysis follows a structured, top-down approach, consistent with methods used in corporate FP&A departments and equity research:
-
 ```
 Step 1 — Data Collection
         ↓
-Step 2 — Data Cleaning & Structuring
+Step 2 — Data Structuring in Excel (financial model)
         ↓
-Step 3 — Horizontal Analysis (YoY changes in absolute and % terms)
+Step 3 — Horizontal Analysis (YoY changes)
         ↓
-Step 4 — Vertical Analysis (structure: each item as % of total)
+Step 4 — Vertical Analysis (structure as % of total)
         ↓
 Step 5 — Financial Ratio Calculation (20+ indicators)
         ↓
-Step 6 — Trend Analysis (4-year trajectory for each metric)
+Step 6 — Trend Analysis (4-year trajectory)
         ↓
-Step 7 — Competitive Benchmarking (Dino vs Żabka Group vs Biedronka)
+Step 7 — Competitive Benchmarking
         ↓
-Step 8 — Business Interpretation (what the numbers mean operationally)
+Step 8 — Business Interpretation
         ↓
-Step 9 — Risk Assessment & Strategic Recommendations
+Step 9 — Risk Assessment and Strategic Recommendations
 ```
-
-All ratios are calculated from source financial data.  
-Benchmark figures are based on publicly available annual reports of peer companies.  
-No external databases or paid data providers were used.
 
 ---
 
@@ -113,12 +93,11 @@ No external databases or paid data providers were used.
 | Source | Description |
 |---|---|
 | Dino Polska S.A. Annual Reports (2021–2024) | Primary data — standalone financial statements |
-| Żabka Group Annual Report 2024 | Competitive benchmark — revenue, ROS, store count |
-| Jerónimo Martins Annual Report 2024 | Competitive benchmark — Biedronka revenue, EBIT margin, growth |
-| Warsaw Stock Exchange (GPW) | Listed company profile and investor relations disclosures |
-| Polish Financial Supervision Authority (KNF) | Regulatory filings |
+| Żabka Group Annual Report 2024 | Competitive benchmark |
+| Jerónimo Martins Annual Report 2024 | Competitive benchmark — Biedronka segment |
+| Warsaw Stock Exchange (GPW) | Listed company profile |
 
-> **Note:** All financial data used in this analysis is publicly available. No proprietary or confidential data was used.
+> All data used in this analysis is publicly available.
 
 ---
 
@@ -128,19 +107,17 @@ No external databases or paid data providers were used.
 
 | Ratio | Formula | 2021 | 2022 | 2023 | 2024 |
 |---|---|---|---|---|---|
-| ROS (Return on Sales) | Net Profit / Revenue | 6.0% | 6.1% | 6.0% | 5.1% |
-| ROA (Return on Assets) | Net Profit / Total Assets | 11.2% | 12.5% | 13.5% | 11.5% |
+| ROS (Return on Sales) | Net Profit / Revenue | 6.03% | 5.72% | 5.48% | 5.14% |
+| ROA (Return on Assets) | Net Profit / Total Assets | 11.2% | 12.6% | 13.5% | 11.5% |
 | ROE (Return on Equity) | Net Profit / Equity | 26.2% | 26.9% | 25.1% | 21.2% |
-| EBIT Margin | EBIT / Revenue | ~8.0% | ~8.0% | ~7.5% | ~6.5% |
-| Operating Cost Ratio | Operating Costs / Revenue | ~92% | ~92% | ~92.5% | ~93% |
 
 ### Liquidity
 
 | Ratio | Formula | 2021 | 2022 | 2023 | 2024 |
 |---|---|---|---|---|---|
-| Current Ratio (WBPF) | Current Assets / Current Liabilities | 0.66 | 0.72 | 0.71 | 0.82 |
-| Quick Ratio (WPP) | (Current Assets – Inventory) / Current Liabilities | — | — | 0.16 | 0.25 |
-| Cash Ratio (WŚP) | Cash / Current Liabilities | — | — | 0.06 | 0.17 |
+| Current Ratio (WBPF) | Current Assets / Current Liabilities | 0.66 | 0.73 | 0.84 | 0.82 |
+| Quick Ratio (WPP) | (Current Assets – Inventory) / Current Liabilities | 0.20 | 0.20 | 0.16 | 0.25 |
+| Cash Ratio (WŚP) | Cash / Current Liabilities | 0.14 | 0.10 | 0.06 | 0.17 |
 
 > Liquidity ratios are below textbook benchmarks (CR > 1.2) — this is structurally normal for high-turnover grocery retail and reflects the negative working capital model deliberately used by Dino.
 
@@ -148,153 +125,131 @@ No external databases or paid data providers were used.
 
 | Ratio | 2021 | 2022 | 2023 | 2024 |
 |---|---|---|---|---|
-| Total Asset Turnover | 1.86 | 2.05 | 2.47 | 2.24 |
-| Fixed Asset Turnover | — | — | 3.60 | — |
-| Days Inventory Outstanding (DIO) | ~37 days | ~37 days | ~37 days | ~37 days |
-| Days Payable Outstanding (DPO) | — | — | — | ~54 days |
-| Cash Conversion Cycle (CCC) | — | — | — | **–11 days** |
+| Days Inventory Outstanding (DIO) | 37.0 days | 36.0 days | 37.0 days | 37.9 days |
+| Days Sales Outstanding (DSO) | 3.9 days | 5.0 days | 4.6 days | 4.6 days |
+| Days Payable Outstanding (DPO) | 66.1 days | 50.8 days | 43.4 days | 53.6 days |
+| Cash Conversion Cycle (CCC) | –27.5 days | –17.9 days | –8.8 days | **–11.8 days** |
 
-> **A negative CCC of –11 days** means Dino collects cash from customers before it pays its suppliers — essentially financing operations with free trade credit. This is a significant structural advantage.
+> A negative CCC means Dino collects cash from customers before paying suppliers — financing operations with free trade credit. This is a significant structural advantage.
 
-### Debt & Capital Structure
+### Debt and Capital Structure
 
 | Ratio | Formula | 2021 | 2022 | 2023 | 2024 |
 |---|---|---|---|---|---|
-| Debt Ratio | Total Liabilities / Total Assets | 57% | — | — | **46%** |
-| Debt-to-Equity | Total Liabilities / Equity | 133% | — | — | **84%** |
-| Long-term Debt Ratio | LT Liabilities / Equity | 36% | — | — | **8%** |
+| Debt Ratio | Total Liabilities / Total Assets | 57.2% | 53.3% | 46.0% | 45.6% |
+| Debt-to-Equity | Total Liabilities / Equity | 133.5% | 114.2% | 85.1% | 84.0% |
+| Long-term Debt Ratio | LT Liabilities / Equity | 35.6% | 26.4% | 15.9% | 8.1% |
 
 ---
 
-## Key Charts & Visualizations
+## Key Charts and Visualizations
 
-### Revenue Growth 2021–2024
-![Revenue Trend](images/charts/01_revenue_trend.png)
+### Revenue and Net Profit 2021–2024
+![Revenue and Net Profit](images/charts/01_revenue_net_profit.png)
 
-Revenue grew from PLN 13,362M in 2021 to PLN 29,274M in 2024 — a **CAGR of 29.8%**, the highest among analyzed competitors. The company added 873 net new stores over the period (+48%).
+Revenue grew from PLN 13,362M (2021) to PLN 29,274M (2024) — a CAGR of 29.8%, the highest among analyzed competitors. The company added 873 net new stores over the period (+48%).
 
 ---
 
 ### Profitability Ratios 2021–2024
-![Profitability](images/charts/02_profitability_ratios.png)
+![Profitability Ratios](images/charts/02_profitability_ratios.png)
 
-ROA peaked at 13.5% in 2023 and pulled back to 11.5% in 2024 — not due to weaker results, but because total assets grew +26% year-on-year following record capex. ROE declined from 26.9% to 21.2%, driven by a larger equity base (retained earnings), not weaker profitability.
+ROA peaked at 13.5% in 2023 before declining to 11.5% in 2024 — driven by record capex (+26% total assets YoY), not weaker fundamentals. ROE declined from 26.9% to 21.2% due to a larger equity base from retained earnings.
 
 ---
 
 ### Liquidity Ratios 2021–2024
-![Liquidity](images/charts/03_liquidity_ratios.png)
+![Liquidity Ratios](images/charts/03_liquidity_ratios.png)
 
-All three liquidity ratios are below standard academic benchmarks but improved in 2024. The Current Ratio of 0.82 is consistent with the negative working capital model typical of large grocery retailers operating on supplier trade credit.
+All three liquidity ratios improved in 2024. The dashed red line shows the textbook benchmark (CR ≥ 1.2) — Dino operates below it by design, not by distress.
 
 ---
 
 ### Debt Structure 2021–2024
-![Debt](images/charts/04_debt_ratios.png)
+![Debt Ratios](images/charts/04_debt_ratios.png)
 
-The Debt Ratio declined from 57% to 46%, while equity financing increased from 43% to 54% of total assets — a direct result of the no-dividend policy and full earnings retention since 2021.
+Debt Ratio declined from 57% to 46%, long-term debt ratio from 36% to 8% — entirely self-funded through the no-dividend retained earnings policy.
 
 ---
 
-### Operating Cash Flow 2021–2024
-![Cash Flow](images/charts/05_cashflow_waterfall.png)
+### Cash Flow 2021–2024
+![Cash Flow](images/charts/05_cashflow.png)
 
-Operating cash flow reached a record PLN 2,557M in 2024, fully covering PLN 1,597M in investment expenditure (capex + acquisition of 75% stake in eZebra.pl — Dino's first e-commerce venture).
+Operating cash flow reached a record PLN 2,557M in 2024, fully covering PLN 1,597M in investment expenditure including the eZebra.pl acquisition.
 
 ---
 
 ### Balance Sheet Structure 2021–2024
-![Balance Sheet](images/charts/06_balance_sheet_structure.png)
+![Balance Sheet Structure](images/charts/06_balance_sheet_structure.png)
 
-The share of equity in total financing grew from 43% to 54% over the period. Non-current liabilities (long-term bank loans, bonds) declined significantly, while current liabilities (primarily trade payables) remained the dominant source of external financing — consistent with the trade credit model.
+Equity financing grew from 43% to 54% of total assets. Non-current liabilities shrank from 15% to just 4% of the financing mix.
 
 ---
 
 ### Competitive Benchmarking
-![Benchmarking](images/charts/07_competitive_benchmarking.png)
+![Competitive Benchmarking](images/charts/07_competitive_benchmarking.png)
 
-| Metric | Dino Polska | Żabka Group | Biedronka (JM) |
-|---|---|---|---|
-| Revenue CAGR 2021–2024 | **29.8%** | 23.9% | 15.1% |
-| ROS 2024 | **5.1%** | 2.49% | ~5.0% |
-| Revenue per Store Growth (CAGR) | **13.9%** | — | — |
-| Like-for-like Growth 2024 | **+5.3%** | — | — |
+Dino's revenue CAGR (29.8%) and ROS (5.1%) both outperform Żabka Group. Dino's ROS is more than double Żabka's 2.49% — suggesting the owner-operated model converts scale into profit more efficiently than the franchise model.
 
-> Dino's ROS of 5.1% significantly outperforms Żabka Group (2.49%), suggesting that the owner-operated model converts scale into profit more efficiently than the franchise model.
+---
+
+### Working Capital Cycles 2021–2024
+![Working Capital Cycles](images/charts/08_working_capital_cycles.png)
+
+DPO (54 days) consistently exceeds DIO (38 days), generating a persistently negative Cash Conversion Cycle — a structural advantage of the business model.
 
 ---
 
 ## Business Insights
 
-### 1. The fastest-growing major grocery chain in Poland
+**1. Fastest-growing major grocery chain in Poland**
+Dino achieved the highest revenue CAGR (29.8%) among analyzed competitors, driven by both new store openings and improving productivity of the existing network (+5.3% like-for-like in 2024).
 
-Dino achieved the highest revenue CAGR (29.8%) among analyzed competitors, driven by both new store openings and improving productivity of the existing network. Revenue per store grew at 13.9% annually — meaning growth is not purely driven by physical expansion.
+**2. Margin pressure is the only visible warning signal**
+ROS declined from 6.0% to 5.1% over the period, primarily due to rising labor and energy costs in 2023–2024. All other financial metrics either improved or remained stable.
 
-### 2. Margin pressure is the only visible warning signal
+**3. Negative working capital is a feature, not a bug**
+The negative Cash Conversion Cycle of –11.8 days is an intentional consequence of the operating model. Suppliers effectively finance a portion of operations at zero cost.
 
-ROS declined from 6.0% to 5.1% (–15% in relative terms) over the period, primarily due to rising labor and energy costs in 2023–2024. All other financial metrics either improved or remained stable. This single trend requires monitoring but does not indicate structural deterioration.
+**4. Balance sheet improving every year**
+Equity financing grew from 43% to 54% of assets. Long-term debt declined from 36% to 8% of equity — entirely self-funded through retained earnings.
 
-### 3. Negative working capital is a feature, not a bug
-
-The negative Cash Conversion Cycle of –11 days and Working Capital of –PLN 961M are intentional consequences of Dino's operating model: the company collects cash at the point of sale while paying suppliers 54 days later. This effectively means suppliers finance a portion of Dino's operations at zero cost.
-
-### 4. The balance sheet is getting stronger every year
-
-Equity financing grew from 43% to 54% of assets. Long-term debt declined from 36% to 8% of equity. This improvement is entirely self-funded through retained earnings — the company has maintained a zero-dividend policy throughout the period.
-
-### 5. Record operating cash flow covers all investment needs
-
-PLN 2,557M in operating cash flow (2024) covered PLN 1,597M in capex and the acquisition of a controlling stake in eZebra.pl — the company's first move into e-commerce.
+**5. Record operating cash flow covers all investment needs**
+PLN 2,557M in operating cash flow (2024) covered PLN 1,597M in capex and the first e-commerce acquisition (eZebra.pl).
 
 ---
 
 ## Competitive Benchmarking
 
-Dino Polska was benchmarked against two major competitors in the Polish grocery market:
+| Metric | Dino Polska | Żabka Group | Biedronka (JM) |
+|---|---|---|---|
+| Revenue CAGR 2021–2024 | **29.8%** | 23.9% | 15.1% |
+| ROS 2024 | **5.1%** | 2.49% | ~5.0% |
+| Revenue per store CAGR | **13.9%** | — | — |
+| Like-for-like growth 2024 | **+5.3%** | — | — |
 
-**Żabka Group** — the dominant convenience store network in Poland (~9,900 stores, franchise model, Q-commerce focus)  
-**Biedronka (Jerónimo Martins)** — the largest grocery discount chain in Poland by revenue and store count
-
-Key conclusions from the benchmark:
-- Dino's revenue growth rate significantly outpaces both competitors
-- Dino's ROS (5.1%) is more than twice Żabka Group's (2.49%), suggesting superior unit economics
-- Revenue per store growing faster than competitors indicates improving like-for-like performance, not just physical expansion
-
-> **Data limitation:** Benchmark figures are based on publicly available annual reports. Żabka Group and Biedronka operate under different accounting standards (IFRS vs Polish GAAP) and use different business models (franchise vs owned), which limits direct comparability. This is acknowledged throughout the analysis.
+> Benchmark data limitation: Żabka Group and Biedronka operate under different accounting standards and business models (franchise vs. owned), which limits direct comparability. This is acknowledged throughout the full analysis.
 
 ---
 
 ## Recommendations
 
-Based on the financial analysis, five strategic recommendations were identified:
-
-**1. Monitor unit-level cost efficiency**  
-Track labor and energy costs per store to identify which locations are driving ROS erosion before it becomes systemic.
-
-**2. Maintain supplier relationship discipline**  
-The negative CCC depends on maintaining favorable payment terms with suppliers. Any tightening of trade credit terms would require alternative financing.
-
-**3. Continue the retained earnings policy**  
-The no-dividend policy has been the primary driver of balance sheet improvement. Continuing it through the current expansion phase is financially rational.
-
-**4. Track e-commerce profitability before scaling**  
-The eZebra.pl acquisition is an early-stage strategic experiment. Profitability and integration costs should be monitored before the e-commerce channel receives further capital allocation.
-
-**5. Use improving creditworthiness selectively**  
-The declining Debt Ratio (46%) and growing equity base have improved Dino's credit profile. This capacity could be used selectively for acquisitions with high expected returns, without compromising the conservative financing model.
+1. **Monitor unit-level cost efficiency** — Track labor and energy costs per store to identify which locations drive ROS erosion before it becomes systemic.
+2. **Maintain supplier relationship discipline** — The negative CCC depends on favorable payment terms. Any tightening would require alternative financing.
+3. **Continue the retained earnings policy** — The no-dividend policy has been the primary driver of balance sheet improvement.
+4. **Track e-commerce profitability** — Monitor eZebra.pl integration costs and unit economics before scaling the channel further.
+5. **Use improving creditworthiness selectively** — The declining Debt Ratio (45.6%) could support selective acquisitions without compromising the conservative financing model.
 
 ---
 
 ## Future Work
 
-| Area | Description |
+| Area | Status |
 |---|---|
-| Power BI Dashboard | 3-page executive dashboard — Executive View · Statement Analysis · Business Insights — currently in development |
-| Consolidated analysis | Expand to consolidated group statements to include Agro-Rydzyna and eZebra.pl |
-| 2025 update | Add 2025 financial statements when published to extend the trend analysis |
-| DCF valuation | Develop a simple discounted cash flow model based on projected free cash flow |
-| Sensitivity analysis | Model the impact of labor cost growth scenarios on ROS and net profit |
-| Sector comparison | Expand competitive benchmarking to include Lidl Poland and Aldi Poland if data becomes available |
+| Power BI Executive Dashboard | Planned — 3-page interactive dashboard |
+| 2025 financial statements update | Planned |
+| Consolidated group analysis | Planned — include Agro-Rydzyna and eZebra.pl |
+| DCF valuation model | Planned |
 
 ---
 
@@ -307,70 +262,53 @@ Financial-Analysis-Dino-Polska-SA/
 ├── LICENSE
 │
 ├── data/
-│   ├── raw/
-│   │   └── Dino_Polska_Sprawozdania_2021_2024.xlsx
-│   └── processed/
-│       └── Dino_Polska_Ratios_Calculated.xlsx
+│   └── Dino_Polska_model_finansowy.xlsx      ← financial model with all ratios
 │
 ├── report/
-│   ├── Dino_Polska_Raport_Analityczny.docx
-│   └── Dino_Polska_Raport_Wykonawczy.docx
+│   ├── Dino_Polska_Raport_Analityczny.docx   ← full analytical report (Polish)
+│   └── Dino_Polska_Raport_Wykonawczy.docx    ← executive summary (Polish)
 │
-├── images/
-│   ├── charts/
-│   │   ├── 01_revenue_trend.png
-│   │   ├── 02_profitability_ratios.png
-│   │   ├── 03_liquidity_ratios.png
-│   │   ├── 04_debt_ratios.png
-│   │   ├── 05_cashflow_waterfall.png
-│   │   ├── 06_balance_sheet_structure.png
-│   │   └── 07_competitive_benchmarking.png
-│   └── cover.png
-│
-└── notebooks/
-    └── Dino_Polska_Analysis.ipynb
+└── images/
+    └── charts/
+        ├── 01_revenue_net_profit.png
+        ├── 02_profitability_ratios.png
+        ├── 03_liquidity_ratios.png
+        ├── 04_debt_ratios.png
+        ├── 05_cashflow.png
+        ├── 06_balance_sheet_structure.png
+        ├── 07_competitive_benchmarking.png
+        └── 08_working_capital_cycles.png
 ```
 
 ---
 
-## Tools & Technologies
+## Tools and Technologies
 
 | Tool | Purpose |
 |---|---|
-| Microsoft Excel | Data structuring, ratio calculation, horizontal & vertical analysis |
+| Microsoft Excel | Financial model — data structuring, ratio calculation, horizontal and vertical analysis |
 | Microsoft Word | Full analytical report and executive summary |
-| Power BI Desktop | Executive dashboard (in development) |
-| Python (pandas, matplotlib) | Data processing and chart generation *(optional)* |
 | GitHub | Version control and portfolio presentation |
 
 ---
 
 ## About the Author
 
-**Daryna Akkus**  
-Finance & Accounting student · Business Process Automation specialization  
+**Daryna Akkus**
+Finance & Accounting student · Business Process Automation specialization
 WSZiB (Wyższa Szkoła Zarządzania i Bankowości), Kraków
 
 Currently seeking roles in: **Junior Financial Analyst · Business Analyst · FP&A · Data Analyst**
 
-**Certifications & Projects:**
-- IBM Data Analyst Professional Certificate
-- Power BI certification (Santander Open Academy)
-- UiPath Automation Developer Associate
-- AI & Labor Market Analysis (Python, Pearson correlation, 666 occupations)
-- AP Invoice Automation (Python + n8n + Google Workspace)
+Certifications: IBM Data Analyst Professional Certificate · Power BI (Santander Open Academy) · UiPath Automation Developer Associate
 
 📍 Kraków, Poland · Available for hybrid and remote roles
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
-You are free to use this project as a reference for educational purposes. If you reference this work, please credit the author.
-
----
 
 *Last updated: June 2026*
 
