@@ -1,8 +1,10 @@
-# Financial Analysis — Dino Polska S.A. (2021–2024)
+# Dino Polska S.A. — Financial Analysis (2021–2024)
 
-> Comprehensive financial statement analysis of one of Poland's fastest-growing grocery retailers,
-> covering profitability, liquidity, efficiency, capital structure, cash flow, and competitive benchmarking.
+**Junior Financial Analyst Portfolio Project**  
+4-year analysis of profitability, liquidity, efficiency, debt structure and cash flows  
+of Poland's fastest-growing grocery retailer · Excel · June 2026
 
+---
 ---
 
 ![Revenue and Net Profit](images/01_revenue_net_profit.png)
@@ -288,6 +290,9 @@ Financial-Analysis-Dino-Polska-SA/
 | Tool | Purpose |
 |---|---|
 | Microsoft Excel | Financial model — data structuring, ratio calculation, horizontal and vertical analysis |
+> All calculations were performed in Microsoft Excel.
+> No scripting was required — the analytical model relies entirely
+> on structured Excel formulas and named ranges.
 | Microsoft Word | Full analytical report and executive summary |
 | GitHub | Version control and portfolio presentation |
 
