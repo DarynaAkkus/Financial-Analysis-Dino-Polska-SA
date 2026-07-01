@@ -306,6 +306,8 @@ Currently seeking roles in: **Junior Financial Analyst · Business Analyst · FP
 Certifications: IBM Data Analyst Professional Certificate · Power BI (Santander Open Academy) · UiPath Automation Developer Associate
 
 📍 Kraków, Poland · Available for hybrid and remote roles
+
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Daryna%20Akkus-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/daryna-akkus-309289308/)
 [![GitHub](https://img.shields.io/badge/GitHub-DarynaAkkus-181717?style=flat&logo=github)](https://github.com/DarynaAkkus)
 [![Email](https://img.shields.io/badge/Email-akkusdaryna%40gmail.com-D14836?style=flat&logo=gmail)](mailto:akkusdaryna@gmail.com)
