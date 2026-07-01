@@ -5,7 +5,7 @@
 
 ---
 
-![Revenue and Net Profit](images/charts/01_revenue_net_profit.png)
+![Revenue and Net Profit](images/01_revenue_net_profit.png)
 
 ---
 
@@ -145,56 +145,56 @@ Step 9 — Risk Assessment and Strategic Recommendations
 ## Key Charts and Visualizations
 
 ### Revenue and Net Profit 2021–2024
-![Revenue and Net Profit](images/charts/01_revenue_net_profit.png)
+![Revenue and Net Profit](images/01_revenue_net_profit.png)
 
 Revenue grew from PLN 13,362M (2021) to PLN 29,274M (2024) — a CAGR of 29.8%, the highest among analyzed competitors. The company added 873 net new stores over the period (+48%).
 
 ---
 
 ### Profitability Ratios 2021–2024
-![Profitability Ratios](images/charts/02_profitability_ratios.png)
+![Profitability Ratios](images/02_profitability_ratios.png)
 
 ROA peaked at 13.5% in 2023 before declining to 11.5% in 2024 — driven by record capex (+26% total assets YoY), not weaker fundamentals. ROE declined from 26.9% to 21.2% due to a larger equity base from retained earnings.
 
 ---
 
 ### Liquidity Ratios 2021–2024
-![Liquidity Ratios](images/charts/03_liquidity_ratios.png)
+![Liquidity Ratios](images/03_liquidity_ratios.png)
 
 All three liquidity ratios improved in 2024. The dashed red line shows the textbook benchmark (CR ≥ 1.2) — Dino operates below it by design, not by distress.
 
 ---
 
 ### Debt Structure 2021–2024
-![Debt Ratios](images/charts/04_debt_ratios.png)
+![Debt Ratios](images/04_debt_ratios.png)
 
 Debt Ratio declined from 57% to 46%, long-term debt ratio from 36% to 8% — entirely self-funded through the no-dividend retained earnings policy.
 
 ---
 
 ### Cash Flow 2021–2024
-![Cash Flow](images/charts/05_cashflow.png)
+![Cash Flow](images/05_cashflow.png)
 
 Operating cash flow reached a record PLN 2,557M in 2024, fully covering PLN 1,597M in investment expenditure including the eZebra.pl acquisition.
 
 ---
 
 ### Balance Sheet Structure 2021–2024
-![Balance Sheet Structure](images/charts/06_balance_sheet_structure.png)
+![Balance Sheet Structure](images/06_balance_sheet_structure.png)
 
 Equity financing grew from 43% to 54% of total assets. Non-current liabilities shrank from 15% to just 4% of the financing mix.
 
 ---
 
 ### Competitive Benchmarking
-![Competitive Benchmarking](images/charts/07_competitive_benchmarking.png)
+![Competitive Benchmarking](images/07_competitive_benchmarking.png)
 
 Dino's revenue CAGR (29.8%) and ROS (5.1%) both outperform Żabka Group. Dino's ROS is more than double Żabka's 2.49% — suggesting the owner-operated model converts scale into profit more efficiently than the franchise model.
 
 ---
 
 ### Working Capital Cycles 2021–2024
-![Working Capital Cycles](images/charts/08_working_capital_cycles.png)
+![Working Capital Cycles](images/08_working_capital_cycles.png)
 
 DPO (54 days) consistently exceeds DIO (38 days), generating a persistently negative Cash Conversion Cycle — a structural advantage of the business model.
 
@@ -265,9 +265,10 @@ Financial-Analysis-Dino-Polska-SA/
 │   └── Dino_Polska_model_finansowy.xlsx      ← financial model with all ratios
 │
 ├── report/
-│   ├── Dino_Polska_Raport_Analityczny.docx   ← full analytical report (Polish)
-│   └── Dino_Polska_Raport_Wykonawczy.docx    ← executive summary (Polish)
-│
+│   ├── Dino_Polska_Raport_Analityczny.pdf   ← full analytical report (Polish)
+│   └── Dino_Polska_Raport_Wykonawczy.pdf    ← executive summary (Polish)
+│   └── Dino_Polska_Executive_Report_EN.pdf
+│   
 └── images/
     └── charts/
         ├── 01_revenue_net_profit.png
