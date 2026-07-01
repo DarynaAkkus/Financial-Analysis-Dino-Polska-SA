@@ -249,9 +249,6 @@ PLN 2,557M in operating cash flow (2024) covered PLN 1,597M in capex and the fir
 | Area | Status |
 |---|---|
 | Power BI Executive Dashboard | Planned — 3-page interactive dashboard |
-| 2025 financial statements update | Planned |
-| Consolidated group analysis | Planned — include Agro-Rydzyna and eZebra.pl |
-| DCF valuation model | Planned |
 
 ---
 
