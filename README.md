@@ -267,7 +267,7 @@ Financial-Analysis-Dino-Polska-SA/
 ├── report/
 │   ├── Dino_Polska_Raport_Analityczny.pdf   ← full analytical report (Polish)
 │   └── Dino_Polska_Raport_Wykonawczy.pdf    ← executive summary (Polish)
-│   └── Dino_Polska_Executive_Report_EN.pdf
+│   └── Dino_Polska_Executive_Report_EN.pdf  ← executive summary (English)
 │   
 └── images/
     └── charts/
